@@ -1,0 +1,36 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+html {
+  background-color: lightgray;
+}
+
+body {
+  text-align: center;
+  width: 25%;
+  min-width: 320px;
+  margin: 0 auto;
+  margin-top: 3em;
+  padding: 2em;
+  padding-top: 0;
+  border: solid 1px darkgray;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
+.section-title {
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+#output {
+  margin-top: 1.5em;
+}
+
+a {
+  display: block;
+  color: darkcyan;
+}

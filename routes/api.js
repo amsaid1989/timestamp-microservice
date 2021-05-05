@@ -3,7 +3,7 @@ const router = express.Router();
 
 function getResponse(date) {
     return {
-        unix: date.getTime(),
+        unix: date.valueOf(),
         utc: date.toUTCString(),
     };
 }
